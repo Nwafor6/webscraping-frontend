@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+*::marker{
+    margin: 0 important;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(244, 244, 244);
+    
+}
+
+._main_body{
+    background-color: #6161d1;
+    height: 150px;
+    border-bottom-left-radius: 100px ;
+
+}
+.nav_bar{
+    padding: 30px;
+    color: white;
+}
+.navigation{
+    display:  flex;
+    justify-content: space-between;
+}
+/* Filtering form session */
+.filter_form{
+    padding: 0;
+    padding: 10px 0;
+}
+.left-radus-control{
+   border-bottom-left-radius: 0;
+   border-top-left-radius: 0 ;
+}
+.right-radus-control{
+   border-bottom-right-radius: 0;
+   border-top-right-radius: 0 ;
+}
+.no-radus{
+    border-radius: 0;
+ }
+ .my_form_control{
+    border: none;
+    width: 99%;
+ }
+
+ /* Main session */
+ .card-main{
+    /* background-color: white; */
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    /* height: 150px ; */
+ }
+ .time_nature{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 150px; */
+ }
+.days_ago{
+    padding-right: 10px;
+}
+.read_more{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Detail Page */
+.details_main{
+    margin: 20px 200px;
+}
+.detail_header{
+    display: flex;
+}
+.detail_header_child{
+    margin-right: 50px;
+}
+.comp_site{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+.comp_link{
+ text-decoration: none;   
+}
+.comp_logo{
+    background-color: rgb(229 127 10);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+.detail_footer_main{
+    background-color: white;
+}
+.detail_footer{
+    margin: 50px  240px 0 240px;
+    padding: 30px;
+}
+
+
+/* Light and Dark toggle */
+.change_mode{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+._bi_icon{
+    padding-left: 15px;
+}
